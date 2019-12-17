@@ -6,8 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent implements OnInit {
-
-  constructor() { }
+ cantiere: String[];
+  constructor() {
+this.cantiere=[ 'macchina', 'macchina2','macchina3','macchina4','macchina5','macchina6','macchina7','macchina8','macchina9','macchina10']
+   };
 
   ngOnInit() {
   }
